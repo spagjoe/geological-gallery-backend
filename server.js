@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://your-site.vercel.app',
+    'https://geological-gallery-backend-production.up.railway.app/api',
     'https://mycool.rocks' // Your custom domain
   ],
   credentials: true
